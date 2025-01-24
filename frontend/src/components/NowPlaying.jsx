@@ -1,6 +1,6 @@
 import ProgressBar from "./ProgressBar";
 import PlayerController from "./PlayerController";
-import icarus from "../assets/icarus-bk.jpeg";
+import lentes from "../assets/lentes.jpg"
 
 export default function NowPlaying(props) {
   return (
@@ -19,17 +19,17 @@ export default function NowPlaying(props) {
           className={`${
             props.showProgressBar ? "rounded-3xl w-full mb-4" : "rounded-2xl w-16"
           }`}
-          src={icarus}
+          src={lentes}
           alt="Music icon"
         />
         <div>
           <h2
             className={`font-bold ${props.showProgressBar ? "text-xl" : "text-base"}`}
           >
-            Música de amor nunca mais
+            Memórias
           </h2>
           <h3 className={`${props.showProgressBar ? "text-lg" : "text-sm"}`}>
-            BK, Luccas Carlos, Nansy Silvvz, Gigantes
+            Yun Li, Biffe, Hakuro, Liwan
           </h3>
         </div>
       </div>

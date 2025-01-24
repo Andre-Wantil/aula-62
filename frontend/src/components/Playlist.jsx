@@ -1,8 +1,8 @@
 import hearth from "../assets/hearth-liked.svg";
 import musics from "../mocks/music";
 
-export default function Playlist({ showPlaylist }) {
-  if (!showPlaylist) {
+export default function Playlist({ showPlaylist, bigScreen }) {
+  if (!showPlaylist && !bigScreen) {
     return null;
   }
 

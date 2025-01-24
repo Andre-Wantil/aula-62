@@ -1,7 +1,7 @@
 import formatTime from "../utils/formatTime";
 
 export default function ProgressBar() {
-  const progressPercentage = (110 / 220) * 100;
+  const progressPercentage = (116 / 232) * 100;
 
   return (
     <div className="flex items-center justify-between flex-col w-full mt-4 relative">
@@ -21,8 +21,8 @@ export default function ProgressBar() {
       ></div>
 
       <div className="flex justify-between w-full mt-2 text-sm text-gray-300">
-        <p>{formatTime(110)}</p>
-        <p>{formatTime(220)}</p>
+        <p>{formatTime(116)}</p>
+        <p>{formatTime(232)}</p>
       </div>
     </div>
   );
